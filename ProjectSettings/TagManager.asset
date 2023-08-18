@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - MatObject
+  - Cube
+  - Ruler
+  - MobilePlatforms
+  - Thief
+  - Slime
+  - BorderUI
+  - Colectible
+  - UmbrellasPick
+  - Check
+  - InteractuableDientes
+  - Pieces
+  - Gelatina
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Floor
+  - Character
+  - PostProcessing
+  - SensorPlayer
+  - EnviromentDetails
+  - Enemy
+  - MatObjs
+  - Pickeable
+  - Flashligth
+  - Lantern
+  - TriggerButtons
+  - BallBullet
+  - Boina
+  - CrouchObs
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

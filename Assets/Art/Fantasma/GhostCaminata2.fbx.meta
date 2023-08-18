@@ -1,0 +1,623 @@
+fileFormatVersion: 2
+guid: 4273dde722d55af4390954fe6975cf9f
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 3836157438586502376
+    second: Caminata2
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Caminata2
+      takeName: Caminata2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 1
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: GhostCaminata2(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:high
+      parentName: GhostCaminata2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:Cabeza_High
+      parentName: Fantasma:high
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:Cuerpo_high
+      parentName: Fantasma:high
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:Ojos_high
+      parentName: Fantasma:high
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:Low
+      parentName: GhostCaminata2(Clone)
+      position: {x: 0.0005453366, y: -0.011046394, z: -0.0016040235}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:OjosLow
+      parentName: Fantasma:Low
+      position: {x: -0.0005453366, y: 0.011046394, z: 0.0016040235}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:CuerpoLow
+      parentName: Fantasma:Low
+      position: {x: -0.0005453366, y: 0.011046394, z: 0.0016040235}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:Cabeza_Low
+      parentName: Fantasma:Low
+      position: {x: -0.0005453366, y: 0.011046394, z: 0.0016040235}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Guides
+      parentName: GhostCaminata2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:Head
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: 0.0005310327, y: 0.0013182778, z: -0.00030663182}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:Hips
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: 0.0005310327, y: -0.016528005, z: -0.0023184407}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:LeftArm
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: -0.0045870305, y: -0.005732615, z: -0.0026687472}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:LeftFoot
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: -0.0034900203, y: -0.022531707, z: -0.0038199825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:LeftForeArm
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: -0.009186786, y: -0.01638235, z: -0.00097494497}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:LeftHand
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: -0.010625919, y: -0.020758972, z: -0.000959404}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:LeftLeg
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: -0.0030278629, y: -0.018505527, z: -0.0029653162}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:LeftShoulder
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: -0.00093950686, y: -0.005732615, z: -0.0026687472}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:LeftToeBase
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: -0.0025595957, y: -0.025469283, z: -0.0033398168}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:LeftUpLeg
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: -0.0023913342, y: -0.01579647, z: -0.0023985475}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:Neck
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: 0.0005310327, y: -0.0011945843, z: -0.0010613498}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:Reference
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: 0.0005310327, y: -0.030317025, z: -0.0016040235}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:RightArm
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: 0.0055750594, y: -0.005732615, z: -0.0032969639}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:RightFoot
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: 0.0044178884, y: -0.02352485, z: -0.0038199825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:RightForeArm
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: 0.009786103, y: -0.01601861, z: -0.0038935828}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:RightHand
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: 0.011387548, y: -0.01992599, z: -0.004381771}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:RightLeg
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: 0.004089928, y: -0.018505527, z: -0.0029653162}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:RightShoulder
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: 0.0020015722, y: -0.005732615, z: -0.0026687472}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:RightToeBase
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: 0.0053014625, y: -0.029094925, z: -0.0033398168}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:RightUpLeg
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: 0.0034533995, y: -0.01579647, z: -0.0023985475}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:Spine
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: 0.0005310327, y: -0.013349066, z: -0.0023152274}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:Spine1
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: 0.0005310327, y: -0.01017382, z: -0.0022573466}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:Spine2
+      parentName: Fantasma:QuickRigCharacter_Guides
+      position: {x: 0.0005310327, y: -0.0068591367, z: -0.0021994659}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Reference
+      parentName: GhostCaminata2(Clone)
+      position: {x: 0.0005310327, y: -0.030317025, z: -0.0016040235}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Hips
+      parentName: Fantasma:QuickRigCharacter_Reference
+      position: {x: -0.00053103274, y: 0.041132458, z: 0.0016841305}
+      rotation: {x: 0.50025266, y: -0.49974728, z: -0.50025266, w: 0.49974728}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_LeftUpLeg
+      parentName: Fantasma:QuickRigCharacter_Hips
+      position: {x: -0.0007314536, y: -0.000080846236, z: 0.0029223668}
+      rotation: {x: -0.08137155, y: -0.0110468995, z: 0.99433106, w: 0.06754556}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_LeftLeg
+      parentName: Fantasma:QuickRigCharacter_LeftUpLeg
+      position: {x: -0.0028399632, y: 0.00000006304386, z: -0.00000002872489}
+      rotation: {x: 0.055616572, y: -0.0032724468, z: -0.057014536, w: 0.99681765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_LeftFoot
+      parentName: Fantasma:QuickRigCharacter_LeftLeg
+      position: {x: -0.0041417615, y: 0.0000000221411, z: -0.0000000027907805}
+      rotation: {x: -0.39714324, y: -0.21236183, z: 0.22805914, w: 0.8632316}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_LeftToeBase
+      parentName: Fantasma:QuickRigCharacter_LeftFoot
+      position: {x: -0.0031185907, y: -2.2347696e-10, z: 0.0000000012589886}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_RightUpLeg
+      parentName: Fantasma:QuickRigCharacter_Hips
+      position: {x: -0.0007314536, y: -0.000080846236, z: -0.0029223668}
+      rotation: {x: -0.20150448, y: 0.089437254, z: -0.02322659, w: 0.97511923}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_RightLeg
+      parentName: Fantasma:QuickRigCharacter_RightUpLeg
+      position: {x: 0.002839966, y: -0.00000005573953, z: 0.00000000892129}
+      rotation: {x: 0.11663569, y: -0.009719928, z: -0.08229769, w: 0.98971146}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_RightFoot
+      parentName: Fantasma:QuickRigCharacter_RightLeg
+      position: {x: 0.0051021175, y: 0.0000000022381268, z: -0.0000000019031352}
+      rotation: {x: 0.0757058, y: -0.0011419862, z: 0.33850953, w: 0.93791187}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_RightToeBase
+      parentName: Fantasma:QuickRigCharacter_RightFoot
+      position: {x: 0.0056601213, y: 1.1928453e-10, z: -8.2355084e-10}
+      rotation: {x: 0.000025409194, y: 0.00000004969679, z: -1.2627554e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Spine
+      parentName: Fantasma:QuickRigCharacter_Hips
+      position: {x: -0.0031789413, y: 4.5244142e-11, z: 6.938894e-20}
+      rotation: {x: 2.9983304e-20, y: -3.4693192e-18, z: -0.008607867, w: 0.999963}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Spine1
+      parentName: Fantasma:QuickRigCharacter_Spine
+      position: {x: -0.003175773, y: -4.1135893e-11, z: -1.3877787e-19}
+      rotation: {x: 7.702133e-21, y: -3.4698618e-18, z: 0.00038328738, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Spine2
+      parentName: Fantasma:QuickRigCharacter_Spine1
+      position: {x: -0.003315189, y: -5.8438684e-11, z: 6.938894e-20}
+      rotation: {x: 0, y: -0, z: -0.09028633, w: 0.99591583}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_LeftShoulder
+      parentName: Fantasma:QuickRigCharacter_Spine2
+      position: {x: -0.0010120097, y: -0.00068199186, z: 0.0014705395}
+      rotation: {x: 0.5470335, y: -0.44805628, z: -0.5470335, w: -0.44805628}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_LeftArm
+      parentName: Fantasma:QuickRigCharacter_LeftShoulder
+      position: {x: -0.0036475235, y: -1.110223e-18, z: -5.551115e-19}
+      rotation: {x: 0.7125494, y: 0.021421395, z: -0.0017918937, w: 0.70129263}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_LeftForeArm
+      parentName: Fantasma:QuickRigCharacter_LeftArm
+      position: {x: -0.011723638, y: 0.00000039771132, z: -0.0000006466204}
+      rotation: {x: -0.0006313321, y: -0.0078469515, z: -0.037764814, w: 0.9992557}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_LeftHand
+      parentName: Fantasma:QuickRigCharacter_LeftForeArm
+      position: {x: -0.0046071857, y: -0.0000000144789745, z: -0.0000000044350146}
+      rotation: {x: 0, y: 0, z: 0.000032245116, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_RightShoulder
+      parentName: Fantasma:QuickRigCharacter_Spine2
+      position: {x: -0.0010120097, y: -0.00068199186, z: -0.0014705395}
+      rotation: {x: 0.40742478, y: 0.4974264, z: -0.48529765, w: 0.5925017}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_RightArm
+      parentName: Fantasma:QuickRigCharacter_RightShoulder
+      position: {x: 0.0036282872, y: 2.220446e-18, z: -9.848967e-11}
+      rotation: {x: 0.6737113, y: -0.0014769878, z: 0.03269755, w: 0.7382695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_RightForeArm
+      parentName: Fantasma:QuickRigCharacter_RightArm
+      position: {x: 0.010922295, y: -0.002143382, z: 0.00000053339164}
+      rotation: {x: -0.000083588726, y: -0.00047030378, z: -0.030731454, w: 0.9995276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_RightHand
+      parentName: Fantasma:QuickRigCharacter_RightForeArm
+      position: {x: 0.004171414, y: -0.0008184689, z: -0.000000034920845}
+      rotation: {x: 3.718662e-11, y: -0.0000011791969, z: 0.000031535546, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Neck
+      parentName: Fantasma:QuickRigCharacter_Spine2
+      position: {x: -0.0057777558, y: 1.1071162e-11, z: 0}
+      rotation: {x: 0, y: -0, z: -0.04672871, w: 0.9989076}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Head
+      parentName: Fantasma:QuickRigCharacter_Neck
+      position: {x: -0.002623752, y: 6.308936e-11, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_Reference
+      parentName: GhostCaminata2(Clone)
+      position: {x: 0.0005310327, y: -0.030317025, z: -0.0016040235}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_HipsEffector
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0, y: 0.014520554, z: -0.0007945239}
+      rotation: {x: 3.0616168e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_LeftAnkleEffector
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.004021058, y: 0.0077853226, z: -0.0022159626}
+      rotation: {x: 0.08694339, y: 0.050866377, z: 0.1427102, w: 0.98462546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_RightAnkleEffector
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.0038868522, y: 0.0067921733, z: -0.0022159868}
+      rotation: {x: -0.13708828, y: -0.0004214336, z: 0.07836852, w: 0.9874538}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_LeftWristEffector
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.011156955, y: 0.009558043, z: 0.0006446216}
+      rotation: {x: -0.028165463, y: 0.116657354, z: 0.55588335, w: 0.82255185}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_RightWristEffector
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.016191468, y: 0.006721993, z: 0.0051064775}
+      rotation: {x: 0.5921768, y: -0.29568124, z: -0.32742923, w: 0.6743066}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_LeftKneeEffector
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.0033776471, y: 0.011744504, z: -0.0011839658}
+      rotation: {x: 0.1290123, y: 0.039466072, z: -0.07345404, w: 0.988131}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_RightKneeEffector
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.0033933662, y: 0.011729786, z: -0.0010293653}
+      rotation: {x: 0.11186663, y: 0.09765622, z: 0.060060766, w: 0.9870876}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_LeftElbowEffector
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.009522505, y: 0.013740931, z: -0.00038408785}
+      rotation: {x: -0.028182581, y: 0.11668261, z: 0.5558822, w: 0.8225484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_RightElbowEffector
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.0072949356, y: 0.010052191, z: -0.00079387915}
+      rotation: {x: 0.21070547, y: 0.35407567, z: -0.5142971, w: 0.75215167}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_ChestOriginEffector
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0, y: 0.01696796, z: -0.0007112038}
+      rotation: {x: -9.1940344e-17, y: -4.2370462e-33, z: -2.220446e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_ChestEndEffector
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0, y: 0.024584409, z: -0.0010647237}
+      rotation: {x: 1.8675875e-11, y: 0.056094002, z: 0.011270349, w: 0.9983619}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_LeftFootEffector
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.0030906268, y: 0.004847746, z: -0.0017357916}
+      rotation: {x: 0.08694341, y: 0.0508663, z: 0.1427106, w: 0.9846254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_RightFootEffector
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.010762116, y: 0.0021782331, z: -0.0017357933}
+      rotation: {x: 0.6207524, y: 0.056477558, z: 0.054332655, w: 0.78008}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_LeftShoulderEffector
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.005118063, y: 0.024584413, z: -0.0010647237}
+      rotation: {x: -0.19896515, y: 0.36544007, z: 0.5202748, w: 0.74577516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_RightShoulderEffector
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.0050440268, y: 0.024584413, z: -0.013810453}
+      rotation: {x: 0.7483593, y: -0.39701346, z: -0.51740974, w: -0.12093702}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_HeadEffector
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0, y: 0.031635303, z: 0.0012973917}
+      rotation: {x: 3.0616168e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_LeftHipEffector
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.0029223668, y: 0.014520556, z: -0.0007945238}
+      rotation: {x: 0.068045415, y: -0.0110016, z: -0.081373766, w: 0.99429727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_RightHipEffector
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.01557767, y: 0.014520556, z: -0.0007945238}
+      rotation: {x: 0.0043189223, y: 0.40236965, z: 0.09296108, w: 0.910735}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_Hips
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0, y: 0.01378902, z: -0.0007144171}
+      rotation: {x: 3.0616168e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_LeftUpLeg
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Hips
+      position: {x: -0.0029223668, y: 0.00073153496, z: -0.00008010685}
+      rotation: {x: 0.068045415, y: -0.011001599, z: -0.081373766, w: 0.99429727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_LeftLeg
+      parentName: Fantasma:QuickRigCharacter_Ctrl_LeftUpLeg
+      position: {x: 2.7755575e-19, y: -0.0028399623, z: -2.7755575e-19}
+      rotation: {x: 0.057019178, y: 0.055612028, z: 0.0032679655, w: 0.99681765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_LeftFoot
+      parentName: Fantasma:QuickRigCharacter_Ctrl_LeftLeg
+      position: {x: -0, y: -0.0041417587, z: 0}
+      rotation: {x: -0.050485864, y: 0.036201056, z: 0.21021, w: 0.9756805}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_LeftToeBase
+      parentName: Fantasma:QuickRigCharacter_Ctrl_LeftFoot
+      position: {x: -7.45058e-10, y: -0.0029375767, z: 0.001047019}
+      rotation: {x: -1.672221e-14, y: -0.000000040587448, z: 0.00000041200448, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_RightUpLeg
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Hips
+      position: {x: 0.0029223668, y: 0.00073153496, z: -0.00008010685}
+      rotation: {x: 0.020637289, y: 0.20148295, z: 0.088017546, w: 0.9753111}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_RightLeg
+      parentName: Fantasma:QuickRigCharacter_Ctrl_RightUpLeg
+      position: {x: 2.9802322e-10, y: -0.0028399623, z: 0.00000002771616}
+      rotation: {x: 0.08230276, y: -0.1163225, z: -0.009693212, w: 0.9897482}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_RightFoot
+      parentName: Fantasma:QuickRigCharacter_Ctrl_RightLeg
+      position: {x: -2.9802322e-10, y: -0.0051021203, z: 2.7755575e-19}
+      rotation: {x: -0.07282647, y: -0.07763522, z: 0.019235156, w: 0.99413234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_RightToeBase
+      parentName: Fantasma:QuickRigCharacter_Ctrl_RightFoot
+      position: {x: 0.00000008434057, y: -0.005570073, z: 0.0010056155}
+      rotation: {x: -1.17928994e-23, y: 8.408274e-33, z: 0.000000036914244, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_Spine
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Hips
+      position: {x: -0, y: 0.0031789397, z: 0.0000032132864}
+      rotation: {x: -3.6429193e-17, y: -6.070382e-18, z: 1.1096698e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_Spine1
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Spine
+      position: {x: -0, y: 0.0031752454, z: 0.000057880727}
+      rotation: {x: 6.7654216e-17, y: -5.841024e-17, z: 5.4516586e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_Spine2
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Spine1
+      position: {x: -0, y: 0.0033146834, z: 0.000057880727}
+      rotation: {x: -2.2000163e-33, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_LeftShoulder
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Spine2
+      position: {x: -0.0014705395, y: 0.0011265218, z: -0.00046928137}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_LeftArm
+      parentName: Fantasma:QuickRigCharacter_Ctrl_LeftShoulder
+      position: {x: -0.0036475235, y: 0, z: 0}
+      rotation: {x: 0.015019624, y: 0.05261553, z: 0.55681896, w: 0.8288297}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_LeftForeArm
+      parentName: Fantasma:QuickRigCharacter_Ctrl_LeftArm
+      position: {x: -0.011723634, y: 0, z: 0}
+      rotation: {x: 0.000006893149, y: 0.08372378, z: -0.00051426113, w: 0.99648887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_LeftHand
+      parentName: Fantasma:QuickRigCharacter_Ctrl_LeftForeArm
+      position: {x: -0.004607185, y: 0, z: 0}
+      rotation: {x: 0.000000041523446, y: -0.000030706415, z: 0.00000025072458, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_RightShoulder
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Spine2
+      position: {x: 0.0014705395, y: 0.0011265218, z: -0.00046928137}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_RightArm
+      parentName: Fantasma:QuickRigCharacter_Ctrl_RightShoulder
+      position: {x: 0.0035734873, y: 0, z: -0.00062821654}
+      rotation: {x: -0.04902986, y: -0.03096734, z: -0.55399436, w: 0.83049834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_RightForeArm
+      parentName: Fantasma:QuickRigCharacter_Ctrl_RightArm
+      position: {x: 0.011130613, y: 0, z: 0}
+      rotation: {x: -0.0000797955, y: -0.030716913, z: 0.00044668748, w: 0.99952805}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_RightHand
+      parentName: Fantasma:QuickRigCharacter_Ctrl_RightForeArm
+      position: {x: 0.0042509483, y: 0, z: 0}
+      rotation: {x: 0.00000012926805, y: 0.000029967223, z: 0.0000011601676, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_Neck
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Spine2
+      position: {x: -0, y: 0.005664552, z: 0.0011381161}
+      rotation: {x: 2.7755576e-17, y: 0, z: 6.162976e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fantasma:QuickRigCharacter_Ctrl_Head
+      parentName: Fantasma:QuickRigCharacter_Ctrl_Neck
+      position: {x: -0, y: 0.002512862, z: 0.000754718}
+      rotation: {x: 3.061617e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
