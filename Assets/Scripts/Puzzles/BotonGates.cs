@@ -9,16 +9,16 @@ public class BotonGates : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "Ball(Clone)" && gameObject.name == "ResetGreen")
+        if (collision.gameObject.layer == 17 && gameObject.name == "ResetGreen")
         {
             miniBoss.gateGreenOpen = true;
         }
-        else if (collision.gameObject.name == "Ball(Clone)" && gameObject.name == "ResetBlue")
+        else if (collision.gameObject.layer == 17 && gameObject.name == "ResetBlue")
         {
             miniBoss.gateBlueOpen = true;
             ball2GO.SetActive(true);
         }
-        else if (collision.gameObject.name == "Ball(Clone)" && gameObject.name == "ResetPink")
+        else if (collision.gameObject.layer == 17 && gameObject.name == "ResetPink")
         {
             miniBoss.gatePinkOpen = true;
             ball2GO.SetActive(true);

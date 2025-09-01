@@ -5,11 +5,13 @@ using UnityEngine.Events;
 
 public class GameState : MonoBehaviour
 {
-    //FINAL - Caamaño Romina - se aplican Getters y Setters / Eventos como publisher para que se suscriban a ellos
+    public static GameState Instance { get; private set; } //FINAL - Caamaño Romina - se aplican Getters y Setters / Eventos como publisher para que se suscriban a ellos
     [System.Serializable] public class PlaneModeChangedEvent : UnityEvent<PlaneMode> {}
     [SerializeField] PlaneModeChangedEvent OnPlaneModeChanged;
     //FINAL - Caamaño Romina - Encapsulando el atributo planemode, solo puede ser consultado a traves de un Getter y modificado a traves de un Setter con cierta logica de control
     private PlaneMode planeMode = PlaneMode.Dream;
+
+    public PlaneMode CurrentPlaneMode => planeMode;
 
     //FINAL - Caamaño Romina - Encapsulamiento C# autoproperties otra forma de Getter y Setters para escribirlos en una sola linea
     public bool DreamPlaneModeEnabled { get; set; } = true;
@@ -23,6 +25,18 @@ public class GameState : MonoBehaviour
         Ghost,
         Demon
     }
+
+    private void Awake()
+    {
+        if (Instance)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+    }
+
     public PlaneMode GetPlaneMode()//FINAL - Caamaño Romina - Getter del planemode
     {
         return planeMode;

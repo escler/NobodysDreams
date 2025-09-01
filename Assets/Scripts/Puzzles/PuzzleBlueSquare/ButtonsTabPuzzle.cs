@@ -9,9 +9,20 @@ public class ButtonsTabPuzzle : MonoBehaviour
     [SerializeField] public GameObject lightInButton1, lightInButton2;
     //declarar un audio clip
 
+    private void Awake()
+    {
+        lightCorrButton1.SetActive(false);
+        lightCorrButton2.SetActive(false);
+        lightCorrButton3.SetActive(false);
+        lightCorrButton4.SetActive(false);
+        lightInButton1.SetActive(false);
+        lightInButton2.SetActive(false);
+
+    }
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "Ball(Clone)" && puzzleBlueSquareTab.finalPass)
+        if (other.gameObject.layer == 17 && puzzleBlueSquareTab.finalPass)
         {
             //reproducir un sonido de click
 

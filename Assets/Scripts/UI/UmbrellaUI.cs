@@ -21,7 +21,14 @@ public class UmbrellaUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         slider.value = Mathf.Lerp(slider.value, umbrella.ActualTime, 0.1f);
+
+        if(GameState.Instance.CurrentPlaneMode != GameState.PlaneMode.Ghost)
+        {
+            disable.SetActive(true);
+            return;
+        }
 
         if (umbrella.UmbrelaDischarge)
         {
